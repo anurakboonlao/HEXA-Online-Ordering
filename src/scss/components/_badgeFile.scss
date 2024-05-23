@@ -1,0 +1,37 @@
+.badge-file{
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    margin-right:20px;
+}
+.badge-file:hover{
+    cursor: pointer;
+}
+
+.badge-file-div{
+    background-color:#D7E4EC;
+    width: -moz-fit-content;
+    display:flex;
+    justify-content: space-between;
+    // align-items: center;
+    // width: 190px;
+    border-radius: 10px;
+}
+.badge-file-text{
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.badge-file-close{
+    margin-top:10px;
+    cursor: pointer;
+    margin-right:20px;
+    position: absolute;
+    right:0;
+    z-index: 20;
+}
+.badge-file-div-div{
+    width: intrinsic;
+    display:inline-block;
+}

@@ -1,0 +1,322 @@
+.teeth-type__nav-menu-text
+{
+    color: var(--normal-text-color);
+    font-size: 14px;
+}
+.teeth-type__nav-menu-text_icharm
+{
+    color: var(--icharm-highlight-text-color);
+    font-size: 14px;
+}
+
+.teeth-type__nav-menu_icharm:not(.selected):hover{
+    .nav-link:not(.disabled){
+        border-bottom: 3px solid var(--icharm-highlight-text-color);
+        .teeth-type__nav-menu-text{
+            color: var(--icharm-highlight-text-color) !important;
+        }
+    }
+}
+.teeth-type__nav-menu_icharm.selected{
+    border-bottom: 3px solid var(--icharm-highlight-text-color);
+    .teeth-type__nav-menu-text{
+        color: var(--icharm-highlight-text-color) !important;
+    }
+}
+
+
+.teeth-type__nav-menu.selected{
+    border-bottom: 3px solid var(--highlight-text-color);
+    .teeth-type__nav-menu-text{
+        color: var(--highlight-text-color) !important;
+    }
+}
+
+.teeth-type__nav-menu:not(.selected):hover
+{
+    .nav-link:not(.disabled){
+        border-bottom: 3px solid var(--highlight-text-color);
+        .teeth-type__nav-menu-text{
+            color: var(--highlight-text-color) !important;
+        }
+    }
+}
+
+.teeth-type__top-nav{
+    justify-content: space-around;
+}
+
+.teeth-type__bottom-nav{
+    justify-content: space-evenly;
+}
+
+.teeth-type__select-image{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 602px;
+
+    .arch-upper{
+        fill:var(--normal-text-color);
+    }
+
+    .arch-lower{
+        fill:var(--normal-text-color);
+    }
+
+    .arch-upper:hover{
+        fill:var(--highlight-text-color);
+    }
+
+    .arch-lower:hover{
+        fill:var(--highlight-text-color);
+    }
+
+    .selected{
+        fill:var(--highlight-text-color);
+    }
+}
+.cb-box{
+    display: flex;
+}
+.teeth-q1{
+    height: 340px;
+    width: 250px;
+    position: relative;
+
+}
+.teeth-q2{
+    height: 340px;
+    width: 250px;
+    position: relative;
+}
+.teeth-q3{
+    margin-top: 30px;
+    height: 325px;
+    width: 250px;
+    position: relative;
+}
+.teeth-q4{
+    margin-top: 30px;
+    height: 325px;
+    width: 250px;
+    position: relative;
+}
+
+.teeth11{
+    position: absolute;
+    bottom:280px;
+    right:1px;
+}
+
+.teeth12{
+    position: absolute;
+    bottom:266px;
+    right:44px;
+}
+
+.teeth13{
+    position: absolute;
+    bottom:233px;
+    right:67px;
+}
+
+.teeth14{
+    position: absolute;
+    bottom:201px;
+    right:82px;
+}
+
+.teeth15{
+    position: absolute;
+    bottom:165px;
+    right:97px;
+}
+
+.teeth16{
+    position: absolute;
+    bottom:104px;
+    right:102px;
+}
+
+.teeth17{
+    position: absolute;
+    bottom:53px;
+    right:118px;
+}
+
+.teeth18{
+    position: absolute;
+    bottom:0px;
+    right:128px;
+}
+.teeth21{
+    position: absolute;
+    bottom:280px;
+    left:0px;
+}
+
+.teeth22{
+    position: absolute;
+    bottom:264px;
+    left:43px;
+}
+
+.teeth23{
+    position: absolute;
+    bottom:232px;
+    left:66px;
+}
+
+.teeth24{
+    position: absolute;
+    bottom:199px;
+    left:81px;
+}
+
+.teeth25{
+    position: absolute;
+    bottom:163px;
+    left:93px;
+}
+
+.teeth26{
+    position: absolute;
+    bottom:103px;
+    left:99px;
+}
+
+.teeth27{
+    position: absolute;
+    bottom:52px;
+    left:115px;
+}
+
+.teeth28{
+    position: absolute;
+    bottom:0px;
+    left:126px;
+}
+
+.teeth31{
+    position: absolute;
+    top:266px;
+    left:1px;
+}
+
+.teeth32{
+    position: absolute;
+    top:255px;
+    left:33px;
+}
+
+.teeth33{
+    position: absolute;
+    top:237px;
+    left:59px;
+}
+
+.teeth34{
+    position: absolute;
+    top:207px;
+    left:75px;
+}
+
+.teeth35{
+    position: absolute;
+    top:165px;
+    left:84px;
+}
+
+.teeth36{
+    position: absolute;
+    top:109px;
+    left:95px;
+}
+
+.teeth37{
+    position: absolute;
+    top:56px;
+    left:114px;
+}
+
+.teeth38{
+    position: absolute;
+    top:0px;
+    left:124px;
+}
+
+.teeth41{
+    position: absolute;
+    top:266px;
+    right:0px;
+}
+
+.teeth42{
+    position: absolute;
+    top:255px;
+    right:33px;
+}
+
+.teeth43{
+    position: absolute;
+    top:238px;
+    right:61px;
+}
+
+.teeth44{
+    position: absolute;
+    top:208px;
+    right:79px;
+}
+
+.teeth45{
+    position: absolute;
+    top:166px;
+    right:91px;
+}
+
+.teeth46{
+    position: absolute;
+    top:110px;
+    right:103px;
+}
+
+.teeth47{
+    position: absolute;
+    top:57px;
+    right:119px;
+}
+
+.teeth48{
+    position: absolute;
+    top:0px;
+    right:126px;
+}
+
+.arch {
+    position: relative;
+
+    .remove-icon {
+        position: absolute;
+        top: 47%;
+        right: 3%;
+        background-color: #C4C4C4;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-content: space-around;
+        align-items: center;
+        border-radius: 25px;
+        justify-content: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+
+        &:hover{
+            opacity: 90%;
+        }
+    }
+}

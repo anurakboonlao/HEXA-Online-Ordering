@@ -1,0 +1,127 @@
+.dashboard__status-bar{
+    margin-top: 0px;
+    margin-bottom: 12px;
+    //height: 56px;
+    width: 100%;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(202, 202, 202, 0.5);
+    border-radius: 4px;
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+
+    .dashboard__status-icon{
+        //height: 56px;
+       // width: 56px;
+        min-width: 45px;
+        min-height: 45px;
+        height: 100%;
+        border-radius: 4px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        fill: white;
+    }
+
+    .dashboard__status-detail{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        .dashboard__status-title{
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .dashboard__status-value{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    .delivered-color{
+        background-color: #52C0F0;
+    }
+    .total-color{
+        background-color: #4468C6;
+    }
+    .pending-color{
+        background-color: #F3B002;
+    }
+    .accepted-color{
+        background-color: #16C366;
+    }
+    .cancel-color{
+        background-color: var(--danger-text-color);
+    }
+
+    .delivered-text-color{
+        color: #52C0F0;
+    }
+    .total-text-color{
+        color: #4468C6;
+    }
+    .pending-text-color{
+        color: #F3B002;
+    }
+    .accepted-text-color{
+        color: #16C366;
+    }
+    .cancel-text-color{
+        color: var(--danger-text-color);
+    }
+}
+
+.dashboard__date-filter{
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+#home-ads {
+    .carousel-inner {
+        height: 300px;
+
+        .carousel-item {
+            height: 300px;
+            background-color: #E5E5E5;
+        }
+    }
+
+    img {
+        object-fit: contain;
+        height: 100%;
+    }
+}
+
+.product-manual-size{
+    height: 260px;  
+}
+.line-manual-size{
+    height: 270px;
+}
+
+.product-client-size{
+    height: 300px;  
+}
+.line-client-size{
+    height: 300px;  
+}
+
+@media (max-width: 1199px){
+    .product-manual-size{
+        height: 400px;     
+    }
+    .line-manual-size{
+        height: 400px;         
+    }
+}

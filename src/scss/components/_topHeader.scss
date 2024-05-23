@@ -1,0 +1,250 @@
+.app-top-header {
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--top-nav-header-border-color);
+     height: 94px;
+}
+
+#responsive-navbar-nav
+{
+    .nav-item
+    {
+        border-left-style: solid;
+        border-left-color: var(--top-nav-header-border-color);
+        border-left-width: 1px;
+    }
+
+    .nav-link:hover{
+        color:var(--highlight-text-color) !important;
+        fill:var(--highlight-text-color) !important;
+    }
+
+    .show-on-toggle
+    {
+        display:none !important;
+    }
+    
+    .top-header__username{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        display:flex;
+        ::after
+        {
+            color:var(--header-username-text) !important;
+        }
+    
+        .top-header__username-text{
+            font-size: 14px;
+            color:var(--header-username-text);
+            font-weight: 500;
+        }
+    
+        .top-header__username-image
+        {
+            border-style: solid;
+            border-color: var(--header-username-border-color);
+            border-width: 2px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+        .top-header__username-setting
+        {
+            margin-left: 5px;
+            fill: var(--header-username-text);
+        }
+
+        .dropdown-menu
+        {
+            background-color: var(--container-background-color);
+            font-size: 14px;
+            
+            .dropdown-item
+            {
+                color:var(--header-username-text) ;
+            }
+
+            .dropdown-item:hover
+            {
+                background-color: var(--header-menu-hover-color);           
+                color:var(--highlight-text-color) ;
+            }
+
+            .dropdown-item:focus
+            {
+                color:var(--highlight-text-color) ;
+                background-color: var(--header-menu-hover-color);        
+            }
+        }
+    }
+
+    .top-header__menu
+    {
+        color:var(--header-username-text);
+        display: flex;
+        align-items: center;
+        //width: 112px;
+        justify-content: center;
+    
+        .top-header__menu-image{
+            fill:var(--header-username-text);
+        }
+    
+        .top-header__menu-text
+        {
+            margin-left: 5px;
+            font-size: 14px;
+        }
+    }
+    
+    .top-header__menu:hover
+    {
+        .top-header__menu-image{
+            fill: var(--highlight2-text-color);
+        }
+    
+        .top-header__menu-text
+        {
+            color:var(--highlight2-text-color) !important;
+        }      
+    }
+    
+    .top-header__username:hover
+    {   
+        ::after
+        {
+            color:var(--highlight2-text-color) !important;
+        }
+
+        .top-header__username-text
+        {
+            color:var(--highlight2-text-color) !important;
+        }
+    
+        .top-header__username-image
+        {
+            border-color: var(--highlight2-text-color) !important;
+        }
+
+        .top-header__username-setting
+        {
+            fill: var(--highlight2-text-color);
+        }
+    }
+    
+}
+
+@media (max-width:767px) {
+    
+    #responsive-navbar-nav
+    {
+        background-color: var(--top-nav-header-background-color);
+        fill: var(--highlight-text-color);
+        color: var(--highlight-text-color);
+        z-index: 900;
+
+        .show-on-toggle
+        {
+            display:flex  !important;
+        }
+
+        .top-header__menu
+        {
+            justify-content: start;
+            padding: 10px;
+            padding-left: 20px;
+            width: 100%;
+            
+            .top-header__menu-image{
+                fill:var(--highlight-text-color);
+            }
+        
+            .top-header__menu-text
+            {
+                color:var(--highlight-text-color);
+            }
+        }
+
+        .top-header__username{
+            height: 80px;
+
+            ::after
+            {
+                color:var(--highlight-text-color) !important;
+            }
+        
+            .top-header__username-text{
+                color:var(--highlight-text-color);
+            }
+        
+            .top-header__username-image
+            {
+                border-color: var(--highlight-text-color);
+            }
+        
+            .top-header__username-setting
+            {
+                fill: var(--highlight-text-color);
+            }
+
+            .dropdown-menu
+            {
+                background-color: transparent;
+                border-style: none;
+
+                .dropdown-item
+                {
+                    color:var(--highlight-text-color);
+                    background-color: transparent;
+                }
+
+                .dropdown-item:hover
+                {        
+                    color:var(--highlight3-text-color);
+                    background-color: transparent;
+                }
+
+                .dropdown-item:focus
+                {
+                    color:var(--highlight3-text-color);   
+                    background-color: transparent;   
+                }
+            }
+        }
+
+        .top-header__menu:hover{     
+            .top-header__menu-image{
+                fill: var(--highlight3-text-color);
+            }
+            .top-header__menu-text
+            {
+                color:var(--highlight3-text-color) !important;
+            }
+        }
+
+        .top-header__username:hover
+        {   
+            ::after
+            {
+                color:var(--highlight3-text-color) !important;
+            }
+            
+            .top-header__username-text
+            {
+                color:var(--highlight3-text-color) !important;
+            }
+
+            .top-header__username-image
+            {
+                border-color: var(--highlight3-text-color) !important;
+            }
+            .top-header__username-setting
+            {
+                fill: var(--highlight3-text-color);
+            }
+        }
+    }
+}
+

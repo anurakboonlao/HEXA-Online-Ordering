@@ -1,0 +1,43 @@
+.attachFile-modal{
+
+    top:10%;
+    .modal-content{
+        min-height: 9rem;
+        max-height: 755px;
+        max-width: 550px;
+        min-width: 550px;
+        overflow-y: auto;
+        border-radius: 4px;        
+    }
+
+    .modal-content::-webkit-scrollbar {
+        width: 0 !important;
+    }
+}
+
+.attachFile-modal__body{
+    padding-top: 11px;
+    padding-left: 23px;
+    padding-bottom: 30px;
+    padding-right: 23px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.attachFile-modal__label{    
+    font-size: 24px;
+}
+
+.attachFile__btn_label{
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+}

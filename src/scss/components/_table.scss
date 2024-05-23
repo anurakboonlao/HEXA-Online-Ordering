@@ -1,0 +1,87 @@
+
+.react-bootstrap-table
+{
+    width: 100%;
+    overflow-y: auto;  
+
+    /* FireFox scrollbar*/
+    scrollbar-width: thin;          
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+/* Chrome, ie, etc scrollbar*/
+.react-bootstrap-table::-webkit-scrollbar {
+    width: 6px;  
+    height: 6px;           
+  }
+  .react-bootstrap-table::-webkit-scrollbar-track {
+    background: transparent;   
+  }
+  .react-bootstrap-table::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+.table-modal
+{
+    font-size: 14px;
+}
+
+.table-main
+{
+    min-width: 750px;
+    font-size: 14px;
+}
+
+.table-header-column
+{
+    color: var(--table-header-text-color);
+    font-weight: 400;
+    border-top-style: none !important;  
+    padding: 0.5rem !important;
+    word-break: break-word;
+}
+.expand-cell-header
+{
+    border-top-style: none !important;  
+}
+.product-expand-row
+{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.table-report tr {
+    cursor: pointer;
+}
+.table-column
+{
+    vertical-align: top !important;  
+    padding: 0.5rem !important;
+    word-break: break-word;
+}
+
+.addon-list{
+    ul{
+        // margin: 0px;
+         padding-left: 16px;
+    }
+}
+
+.table-btn-column
+{
+    padding-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    li{
+        display: inline;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
+
+.hexa-expand-table{
+    overflow-x: auto;
+}
+
+.hexa-table-fix {
+    min-width : 1100px;
+}

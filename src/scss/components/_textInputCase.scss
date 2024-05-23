@@ -1,0 +1,49 @@
+.text-input-case__main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .text-input-case__back:hover{
+        cursor: pointer;
+    }
+
+    .text-input-case__input-wrapper{
+        width: 100%;
+        margin-left: 20px;
+
+        .text-input-case__input{
+            border-top-style: none;
+            border-left-style: none;
+            border-right-style: none;
+            border-radius: 0px;
+            font-size: 24px;          
+        }  
+        
+        .text-input-case__input:read-only{
+            background-color: var(--container-background-color);
+        }
+
+        .text-input-case__input:read-only:focus{
+            border-color: var(--border-control-color);
+        }
+
+        .text-input-case__edit{
+            fill: var(--normal-text-color);
+            position: absolute;
+            right: 7px;
+            top: 13px;       
+        }
+    }
+}
+
+.case-min-width{
+    min-width:500px
+}
+
+.label-text {
+    font-size: 14px;
+    
+}

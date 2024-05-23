@@ -1,0 +1,21 @@
+.addon-modal{
+    .modal-content{
+        border-radius: 16px;
+    }
+}
+
+.addon-modal__body{
+    padding-top: 11px;
+    padding-left: 23px;
+    padding-bottom: 30px;
+    padding-right: 23px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.addon-modal__label{    
+    font-size: 24px;
+}

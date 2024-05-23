@@ -1,0 +1,10 @@
+.favorite-tooltip > .tooltip-inner {
+    background-color: transparent;//var(--container-background-color);
+    color: var(--normal-text-color);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Prompt', sans-serif,;
+  }
+  
+.favorite-tooltip > .arrow {
+    display: none;
+}

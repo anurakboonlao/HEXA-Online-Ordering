@@ -1,0 +1,79 @@
+@import '../base/colorPalette';
+
+.attached-preview {
+  border-radius: 5px;
+
+  &__background-icon {
+    text-align: center;
+
+    .file-zip-icon {
+      position: absolute;
+      cursor: pointer;
+      fill: white;
+      width: 52px; 
+      height: 52px;
+      bottom: 50%;
+      right: 36%;
+    }
+
+    .play-icon {
+      position: absolute;
+      cursor: pointer;
+      fill: white;
+      width: 65px; 
+      height: 65px;
+      bottom: 45%;
+      right: 32%;
+    }
+  }
+
+  &__image {
+    cursor: pointer;
+    width: 100%;
+    height: 5vw;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &__button-icon { 
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 3px;
+    border: 0;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    cursor: pointer;
+    visibility: hidden;
+    z-index: 2;
+
+    .icon {
+      fill: var(--primary);
+      margin-bottom: 2px;
+    }
+
+  }
+
+  &__body-text {
+    cursor: pointer;
+  }
+}
+
+.preview-card {
+  &__file-preview {
+    background-color: grey;
+
+    .preview-background {
+      height: 4vw;
+      width: 100%;
+    }
+  }
+}

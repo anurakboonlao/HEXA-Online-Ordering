@@ -1,0 +1,42 @@
+body{
+    background: #ffffff;
+}
+
+.notfound__body
+{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.notfound__title
+{
+    font-size: 144px;
+    font-weight: 600;
+    color: #0171BB;
+}
+
+.notfound__sub-title
+{
+    font-size: 36px;
+    font-weight: 600;
+    color:#616161;
+}
+
+.notfound__sub-description
+{
+    font-size: 24px;
+    font-weight: 400;
+    color:#616161;
+    margin-top: 28px;
+}
+
+.notfound__action
+{
+    margin-top: 50px
+}

@@ -1,0 +1,25 @@
+.top-filter__top-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 0;
+   
+}
+.top-filter__menu{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 0;
+    margin-bottom: 20px;
+
+    .top-filter__menu-item{
+      height: 40px;
+      margin-left: 8px;
+      margin-right: 0px;
+      margin-bottom: 10px
+    }
+}

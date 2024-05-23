@@ -1,0 +1,27 @@
+.moreMenuPanel {
+    z-index: 1100;
+    background-color: var(--top-nav-header-border-color);
+    color: var(--normal-text-color);
+    border-radius: 4px;
+    border-color: var(--page-border-color);
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Prompt", sans-serif;
+    font-size: 14px;
+  }
+  
+  .moreMenuItem {
+    padding: 8px 10px;
+    border-bottom-color: var(--page-border-color);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+  
+  .moreMenuItem:hover {
+    background-color: var(--focus-background-color);
+  }
+
+  .moreMenuItem__delete {
+    color: var(--danger-text-color);
+  }

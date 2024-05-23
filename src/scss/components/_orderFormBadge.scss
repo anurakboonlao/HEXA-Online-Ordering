@@ -1,0 +1,54 @@
+.badge-file{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 13px;
+    margin-right: 6px;
+}
+.badge-file:hover{
+    cursor: pointer;
+}
+
+.badge-file-div{
+    background-color:#D7E4EC;
+    width: -moz-fit-content;
+    display:block;
+    border-radius: 10px;
+}
+.badge-file-text{
+    font-family: 'Prompt' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    color: #000000;
+    font-size: 14px !important;
+    line-height: 21px;
+    &:not(.disable):hover {
+        pointer-events: none !important;
+    }
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.badge-file-close{
+    cursor: pointer;
+    fill:black;
+}
+.badge-file-div-div{
+    width: intrinsic;
+    display:inline-block;
+}
+.close-button{
+    position: relative;
+    z-index:999;
+}
+
+.lightbox-index div {
+    z-index: 9999;
+}
+
+// .attached-badge{
+//     display:flex;
+// }

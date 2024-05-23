@@ -1,0 +1,131 @@
+.description{
+  text-align: center;
+}
+.description-title{
+  margin-top:18px;
+  font-size:16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.description-desc{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9D9D9D;
+}
+.confirm-button{
+  width:152px;
+  height:40px;
+  background: #0171BB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border:1px solid  #0171BB;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color:white;
+}
+.reject-button{
+  width:152px;
+  height:40px;
+  background: #FFFFFF;
+  border: 2px solid #0171BB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0171BB;
+  margin-left:16px;
+}
+.group-button{
+  padding-bottom:40px;
+}
+.description-img-div{
+  text-align: center;
+}
+
+@media only screen and (max-width: 1500px){
+  .description-img{
+    text-align: center;
+    width:500px;
+  }
+}
+@media only screen and (max-width: 1400px){
+  .description-img{
+    text-align: center;
+    width:400px;
+  }
+}
+.text-order-order{
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.in-progress-div{
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  padding-bottom:30px;
+}
+.text-title{
+  font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.text-data{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #616161;
+}
+.send-button{
+  background: #0171BB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  width:152px;
+  height:40px;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color:white;
+  border:1px solid #0171BB;
+}
+.send-button-disable{
+  border:1px solid #A5A5A5;
+  background: #A5A5A5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  color:#FFFFFF;
+  font-size: 18px;
+  width:152px;
+  height:40px;
+}
+.attach-button{
+  margin-top:42px;
+}
+.presentation-title{
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  // line-height: 21px;
+  margin-top:20px;
+  color: #9D9D9D;
+}

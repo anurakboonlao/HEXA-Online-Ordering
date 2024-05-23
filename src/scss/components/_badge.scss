@@ -1,0 +1,144 @@
+.hexa-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    min-width: 106px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 12.5px;
+    color: white;
+    height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.badge-py {
+    padding: 20px 0px;
+}
+
+.badge-status-table{
+    width: 100%;
+    max-width: 152px;
+}
+
+.badge-green {
+    background-color: #16C366;
+}
+
+.badge-orange {
+    background-color: #FA6841;
+}
+
+.badge-dark-blue {
+    background-color: #0171BB;
+}
+
+.badge-red {
+    background-color: var(--danger-text-color);
+}
+
+.badge-outlined-accepted {
+    background-color: transparent !important;
+    border-color: #16C366;
+    color: #16C366;
+}
+
+.badge-canceled {
+    background-color: #D05353;
+}
+
+.badge-outlined-canceled {
+    background-color: transparent !important;
+    border-color: #D05353;
+    color: #D05353;
+}
+
+.badge-delivered {
+    background-color: #38A7D7;
+}
+
+.badge-outlined-delivered {
+    background-color: transparent !important;
+    border-color: #38A7D7;
+    color: #38A7D7;
+}
+
+.badge-delayed {
+    background-color: #7060C0;
+}
+
+.badge-outlined-delayed {
+    background-color: transparent !important;
+    border-color: #7060C0;
+    color: #7060C0;
+}
+
+.badge-purple {
+    background-color: var(--badge-purple-color);
+}
+
+.badge-draft {
+    background-color: var(--badge-purple-color);
+}
+
+.badge-yellow {
+    background-color: #F5BA22;
+}
+
+.badge-outlined-draft {
+    background-color: transparent !important;
+    border-color: #F3B002;
+    color: #F3B002;
+}
+
+.badge-pending {
+    background-color: #F3B002;
+}
+
+.badge-outlined-pending {
+    background-color: transparent !important;
+    border-color: #F3B002;
+    color: #F3B002;
+}
+
+// order status badge color 
+.badge-outlined-canceled-order {
+    background-color: transparent !important;
+    border-color: #A5A5A5;
+    color: #A5A5A5;
+}
+
+.badge-outlined-rejected-order {
+    background-color: transparent !important;
+    border-color: var(--danger-text-color);
+    color: var(--danger-text-color);
+}
+
+.badge-outlined-delivered-order {
+    background-color: transparent !important;
+    border-color: #4468C6;
+    color: #4468C6;
+}
+
+.badge-outlined-completed-order {
+    background-color: transparent !important;
+    border-color: #52C0F0;
+    color: #52C0F0;
+}
+.badge-icharm{
+    background-color: transparent !important;
+    border-color: #D55FFF;
+    color: #D55FFF;
+}
+.badge-icharm-set2{
+    background-color: transparent !important;
+    border-color: #A901E3;
+    color: #A901E3;
+}
+.badge-icharm-delivered{
+    background-color: transparent !important;
+    border-color: #4468C6;
+    color: #4468C6;
+}

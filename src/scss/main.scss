@@ -1,0 +1,284 @@
+@import './abstract/variables';
+@import './base/colorPalette';
+@import './vendor/bootstrap';
+@import './abstract/variables';
+@import './components/sideBarContainer';
+@import './components/selectInput';
+@import './components/dropdown';
+@import './components/button';
+@import './components/loader';
+@import './components/smallLogo';
+@import './components/card';
+@import './components/table';
+@import './components/modal';
+@import './components/textbox';
+@import './components/searchBox';
+@import './components/badge';
+@import './components/datePeriodFilter';
+@import './components/teethTypeSelect';
+@import './components/textInputCase';
+@import './components/productModal';
+@import './components/memoModal';
+@import './components/addOnInputModal';
+@import './components/navFilterTopBar';
+@import './components/advertiseButton';
+@import './components/attachedFileBadge';
+@import './components/productTypeBarChart';
+@import './components/dailyLineChart';
+@import './components/toolTip';
+@import './components/moreMenu';
+
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 100;
+    src: local('Prompt'), url(../assets/fonts/Prompt-Thin.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 200;
+    src: local('Prompt'), url(../assets/fonts/Prompt-ExtraLight.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 300;
+    src: local('Prompt'), url(../assets/fonts/Prompt-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 400;
+    src: local('Prompt'), url(../assets/fonts/Prompt-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 500;
+    src: local('Prompt'), url(../assets/fonts/Prompt-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 600;
+    src: local('Prompt'), url(../assets/fonts/Prompt-SemiBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 700;
+    src: local('Prompt'), url(../assets/fonts/Prompt-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 800;
+    src: local('Prompt'), url(../assets/fonts/Prompt-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Prompt';
+    font-weight: 900;
+    src: local('Prompt'), url(../assets/fonts/Prompt-Black.ttf) format('truetype');
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background: rgb(232,232,232) !important;
+    background: linear-gradient(180deg, rgba(232,232,232,1) 5.47%, rgba(175,204,218,1) 34.9%, rgba(18,128,179,1) 89.06%, rgba(1,85,131,1) 100%) !important;
+   width:100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Prompt',
+        sans-serif,;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@media (min-width: 576px)
+{
+    .main-container
+    {
+        max-width: 97%;
+    }
+}
+
+.error-text
+{
+    color:var(--danger-text-color);
+}
+
+.appFooter
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: var(--normal-text-color);
+    text-align: center;
+    display: none;
+}
+
+.main-container
+{
+    background-color: var(--container-background-color);
+    border-radius: 8px;
+    margin-top: 17px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#page-header
+{
+    border-bottom-color: var(--page-border-color);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (max-width: 767px)
+    {
+        .page-header-action
+        {
+            justify-content: start !important;
+            margin-top: 5px;
+        }
+    }
+
+    .page-header-action
+    {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        color: #616161;
+    }
+
+    .page-title
+    {
+        color: var(--page-title-text-color);
+        font-weight: 600;
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .btn-header
+    {
+        background-color:var(--top-nav-header-border-color);
+        color: var(--normal-text-color);
+        fill:var(--normal-text-color);
+        border-style: none;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 6px 8px rgba(0, 0, 0, 0.1);
+        height:32px;
+        width: 32px;
+        padding: 0px;
+    }
+}
+
+.hexa__box-shadow{
+    box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.06), 4px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hexa__box-detail-shadow{
+    box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.06), 4px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.disabled-style-switch{
+    padding-left: 0;
+}
+
+.border-radius-4{
+    border-radius: 4px !important;
+}
+.border-radius-8{
+    border-radius: 8px !important;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.grow {
+    animation: grow 1s ease 1;
+  }
+
+  @keyframes grow {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+  }
+
+  .svg-click
+  {
+      fill: var(--normal-text-color);
+  }
+  .svg-click:hover
+  {
+    fill:var(--highlight-text-color);
+    cursor: pointer;
+  }
+
+  .div-star
+  {
+      padding-left: 17px;
+      padding-bottom: 5px;
+  }
+
+  .svg-star
+  {
+    stroke:#F6A41D;
+    stroke-width:4;
+    cursor: pointer;
+  }
+
+  .pad-top-10px
+  {
+      padding-top: 10px;
+  }
+
+  .svg-star:hover
+  {
+      fill:#F6A41D;
+  }
+
+  .btn-primary.disabled, .btn-primary:disabled{
+    background-color: #c4c4c4 !important;
+    border-color:#c4c4c4 !important;
+    font-weight: 500;
+}
+
+.h-32 {
+    height: 32px !important;
+}
+
+
+

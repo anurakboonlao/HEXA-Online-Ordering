@@ -1,0 +1,43 @@
+.secondary-btn, .secondary-btn:hover, .secondary-btn:focus
+{
+    color: #ffffff;
+    fill: #ffffff;
+    height: 40px;
+    border-radius: 8px;
+    width: 112px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.export-btn{
+    background-color: var(--highlight3-text-color);
+    height: 40px;
+    display:block;
+    padding: 10px 30px;
+}
+
+.export-btn:hover{
+    text-decoration: none;
+    background-color: #ce9730;
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled{
+    background-color: transparent;
+    border-color:#CACACA !important;
+    color: #CACACA !important;
+    font-weight: 500;
+}
+
+.attachFile-secondary-btn, .attachFile-secondary-btn:hover, .attachFile-secondary-btn:focus, attachFile-secondary-btn {
+    width: 180px;
+    height: 40px;
+    
+    background: #0171BB;
+    border: 2px solid #0171BB;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+
+

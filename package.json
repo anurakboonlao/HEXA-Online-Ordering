@@ -1,0 +1,104 @@
+{
+  "name": "hexa-online-ordering-webui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/downloadjs": "^1.4.3",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.12",
+    "@types/react": "^17.0.6",
+    "@types/react-bootstrap-table2-paginator": "^2.1.1",
+    "@types/react-csv": "^1.1.2",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^3.3.2",
+    "dayjs": "^1.10.5",
+    "dotenv": "^9.0.0",
+    "downloadjs": "^1.4.7",
+    "file-saver": "^2.0.5",
+    "i18next": "^21.8.5",
+    "js-file-download": "^0.4.12",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "pkijs": "^2.1.95",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-typeahead": "^5.1.4",
+    "react-chartjs-2": "^3.0.3",
+    "react-csv": "^2.0.3",
+    "react-custom-scrollbars-2": "^4.3.0",
+    "react-datepicker": "^3.8.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.2",
+    "react-file-download": "^0.3.5",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.16.9",
+    "react-image-lightbox": "^5.1.1",
+    "react-inlinesvg": "^2.3.0",
+    "react-loadable": "^5.5.0",
+    "react-loading": "^2.0.3",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.52.1",
+    "typescript": "^4.2.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Sooparerk Sakyai",
+  "keywords": [
+    "hexa-online-ordering",
+    "web"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/pkijs": "0.0.6",
+    "@types/react-bootstrap-table-next": "^4.0.13",
+    "@types/react-bootstrap-typeahead": "^5.1.4",
+    "@types/react-datepicker": "^3.1.8",
+    "@types/react-helmet": "^6.1.1",
+    "@types/react-loadable": "^5.5.4",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router-redux": "^5.0.18",
+    "@types/redux": "^3.6.0",
+    "react-image-video-lightbox": "^3.0.0",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.52.1",
+    "typesafe-actions": "^5.1.0"
+  }
+}

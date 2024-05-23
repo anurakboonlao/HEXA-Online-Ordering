@@ -1,0 +1,16 @@
+.advertisement-continer {
+
+    .custom-file-label::after {
+        background-color: #0171BB;
+        color: #fff;
+    }
+}
+
+.advertisement-form {
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        background: 1px solid var(--border-control-color);
+    }
+}
