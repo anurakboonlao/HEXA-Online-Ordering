@@ -245,7 +245,7 @@ i18n.use(initReactI18next).init({
         PATIENT: "Patient",
         PATIENT_NAME: "Patient Name",
         PROCESSING: "Processing",
-        PICKUP_DATE: "Pickup Date",
+        PICKUP_DATE: "Pickup Date T",
         PRODUCT_FROM_STEP_1_SEND: "Products from Step 1 have been delivered.",
         PROCESS_PROCESSING: "Processing...",
         PAGE_NOT_FOUND: "PAGE NOT FOUND",
