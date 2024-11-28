@@ -134,7 +134,7 @@ i18n.use(initReactI18next).init({
           "In order to perform dental bridge please ensure that your teeth already have products assigned to them.",
         INACTIVE: "Inactive",
         IN_PROGRESS: "In Progress",
-        REQUEST_DELIVERY_DATE: "Requested Due Date",
+        REQUEST_DELIVERY_DATE: "Requested Due Date T",
         INTERNAL_SERVER_PROBLEM: "Sorry, We're experencing an internal server problem.",
         INPUT_TEETH_NUMBER: "Input Teeth Number",
         INPUT_NUMBER: "Input Number",
